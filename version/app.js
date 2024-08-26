@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Esta es la version 3 de la app y con traduccion y webhook!.' + '\n';
+    response = 'Esta es la version 3b de la app y con traduccion y webhook!.' + '\n';
 
     //send the response to the client
     res.send(response);
